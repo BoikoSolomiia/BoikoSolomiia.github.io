@@ -1,0 +1,57 @@
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: blue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#maths {
+  font-family: Times, serif;
+  color: green; 
+}
+#development {
+  font-family: Courier, monospace;
+  color: red;
+  text-align: center;
+}
+img {
+  width: 40%;
+  height: auto;
+  vertical-align: middle;
+}
+a {
+  font-family: Georgia, serif; 
+  color: brown;
+}
+marquee {
+  font-family: Comic Sans MS, cursive;
+  color: orange;
+}
+table {
+  font-family: Verdana, sans-serif;
+  color: #333; 
+  text-align: center;
+  align:center;
+  width: 60%;
+}
+caption {
+  font-family: Impact, sans-serif;
+  color: purple;
+}
+@media only screen and (max-width: 600px) {
+  h1 {font-size: 30px;}
+  #maths {font-size: 15px;}
+  #development {font-size: 15px;}
+  marquee {font-size: 15px;}
+  caption {font-size: 15px;}
+}
+@media only screen and (min-width: 600px) {
+h1 {font-size: 60px;}
+#maths {font-size: 30px;}
+#development {font-size: 30px;}
+marquee {font-size: 30px;}
+caption {font-size: 30px;}
+}
